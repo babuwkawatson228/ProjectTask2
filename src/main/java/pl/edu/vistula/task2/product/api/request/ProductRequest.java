@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 
 public class ProductRequest {
 
-    private final String name;
+    private  String name;
 
     private BigDecimal price;
 
@@ -29,3 +29,4 @@ public class ProductRequest {
         this.price = price;
     }
 }
+
