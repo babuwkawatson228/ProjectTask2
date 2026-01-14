@@ -54,9 +54,13 @@ We not only can create new resources, but update already created ones using a PU
 
 As we requested to update the name and the price of the 2nd element
 
-From                  To
-name: "Second"        name: "Second_Updated"
-price: "1.50"         price: "1.99"
+From
+name: "Second" 
+price: "1.50"
+
+To
+name: "Second_Updated"
+price: "1.99"
 
 we can see the result of that with status 200 (OK).
 
